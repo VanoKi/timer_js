@@ -9,8 +9,19 @@ body {
   align-items: center;
   justify-content: center;
   background: lightgrey;
+  font-size: 42px;
 }
 
 .container {
   /* margin: 0 auto; */
+}
+
+p {
+  background: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  height: 70px;
+  width: 200px;
 }
