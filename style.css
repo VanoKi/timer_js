@@ -14,6 +14,9 @@ body {
 
 .container {
   /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 p {
@@ -24,4 +27,10 @@ p {
   font-size: 42px;
   height: 70px;
   width: 200px;
+}
+
+.start {
+  margin-top: 20px;
+  width: 100px;
+  height: 20px;
 }
